@@ -33,7 +33,7 @@ cd xbn_admin_node
 
 npm install
 
-npm run dev (需先开启mongodb)
+npm run dev (需先开启mongodb，将data文件夹下的json文件导入xbn_user数据库里，json文件名称即是collection名称)
 
 访问: http://localhost:8111
 
