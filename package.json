@@ -1,21 +1,21 @@
 {
-  "name": "node-elm",
+  "name": "xbn_admin_node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "cangdu <1264889788@qq.com>",
+  "author": "meilianmeng <179727262@qq.com>",
   "license": "GPL",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development supervisor --harmony index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'node-elm'",
-    "stop": "cross-env NODE_ENV=production pm2 stop index.js --name 'node-elm'",
-    "restart": "cross-env NODE_ENV=production pm2 restart index.js --node-args='--harmony' --name 'node-elm'"
+    "start": "cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'xbn_admin_node'",
+    "stop": "cross-env NODE_ENV=production pm2 stop index.js --name 'xbn_admin_node'",
+    "restart": "cross-env NODE_ENV=production pm2 restart index.js --node-args='--harmony' --name 'xbn_admin_node'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bailicangdu/node-elm"
+    "url": "https://github.com/codeBaby666/xbn_admin_node"
   },
   "dependencies": {
     "async": "^2.1.4",
